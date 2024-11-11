@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    background-color: #1B1717;
+
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+nav{
+    color: #EAE4BD;
+    font-size:48px;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    font-family: "Alexandria", sans-serif;
+    font-weight: bold;
+    border-bottom: #EAE4BD solid 1px;
+    padding-bottom: 30px;
+    padding-top:20px;
+}
+
+#sc-icon{
+    position:absolute;
+    margin-left: 10px;
+    top:-12px;
+}
+
+.miniatura{
+    height: 255px;
+    width: 453px;
+    border-radius: 20px;
+    border: #EAE4BD solid 2px;
+}
+
+.miniatura.player1{
+    height: 580px;
+    width: 1031px;
+}
+
+.podcast{
+    width: 453px;
+    height: 305px;
+}
+
+#podcasts{
+    width: fit-content;
+}
+
+#podcast1{
+    position: absolute;
+    top:140px;
+    left:100px;
+}
+#podcast2{
+    position: absolute;
+    top:140px;
+    left: 600px;
+}
+
+.title{
+    font-family: "Inter", sans-serif;
+    position: absolute;
+    top:265px;
+    left: 15px;
+    font-size:22px;
+    font-weight: 600;
+    color: rgb(255,255,255,0.95);
+}
+
+.author{
+    font-family: "Inter", sans-serif;
+    position: absolute;
+    top:287px;
+    left: 15px;
+    font-size:15px;
+    font-weight: 400;
+    color: rgb(255,255,255,0.90);
+}
+
+#clock{
+    position: absolute;
+    top:-1px;
+    left: -20px;
+}
+
+.time{
+    position: absolute;
+    left: 410px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size:14px;
+    color: rgb(255,255,255,0.60);
+}
+
+.podcast.player1{
+    width: 1031px;
+    height: 670px;
+    margin-top: 30px;
+}
+
+.player{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title.player{
+    position: inherit;
+    font-size:40px;
+}
+
+.author.player{
+    position: inherit;
+    font-size:20px;
+}
+
+.progress-bar-container {
+    width: 600px;
+    height: 6px;
+    background-color: #aaaaaa;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 0%;
+    background-color: #EAE4BD;
+    border-radius: 6px;
+    transition: width 0.3s ease;
+}
+
+.time.p1{
+    left:1190px;
+}
+
+button{
+    background-color:#1B1717;
+    border: none;
+}
+
+#play{
+    position: absolute;
+    top:830px;
+    left:940px;
+}
+
+#play:hover{
+    cursor: pointer;
+}
+
+#pause{
+    position: absolute;
+    top:832px;
+    left:900px;
+}
+
+#pause:hover{
+    cursor: pointer;
+}
+
+#x2{
+    font-family: "Inter", sans-serif;
+    position: absolute;
+    top:832px;
+    left:980px;
+    font-weight: 700;
+    font-size:19px;
+    color:#aaaaaa;
+}
+
+#x2:hover{
+    cursor: pointer;
+}

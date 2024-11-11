@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>giga .iga on da trigga</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="player.js"></script>
+</head>
+<body>
+    <nav><a href="./index.html">SkibidiCloud <img id="sc-icon" src="img/soundcloud-icon.svg" alt="sc-icon" height="137px" width="105px"></a></nav>  
+
+        <div class="player">
+        <div class="podcast player1">
+        <img class="miniatura player1" src="img/miniatura1.png"></img>
+        <div class="title player">Kiedy te koty wrócą?</div>
+        <div class="author player">Stary astmatyk i Starzec Plujący na koty</div>
+        </div>
+    </div>
+
+    <audio ontimeupdate="act_value()" id="ad">
+        <source src="audio/podcast1.mp3" type="audio/mpeg">
+    </audio>
+    <div class="player">
+    <div class="progress-bar-container">
+        <div class="progress-bar" id="progress-bar"></div>
+        <div id="timeid"class="time p1">0:00/0:00</div>
+    </div>   </div>
+
+    <button id="play" onclick="play()"><img id="pp1" src="./img/play-white.svg "></button>
+    <button id="pause" onclick="pause()"><img id="pp2" src="./img/pause-yellow.svg "></button>
+    <button onclick="x2()" id="x2">x2</button>
+</body>
+</html>
